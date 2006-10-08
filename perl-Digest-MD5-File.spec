@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Digest
 %define	pnam	MD5-File
-Summary:	Digest::MD5::File - getting MD5 sums for files and urls
-#Summary(pl):	
+Summary:	Digest::MD5::File - getting MD5 sums for files and URLs
+Summary(pl):	Digest::MD5::File - uzyskiwanie sum MD5 dla plików i URL-i
 Name:		perl-Digest-MD5-File
 Version:	0.05
 Release:	1
@@ -18,16 +18,17 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl(LWP::UserAgent)
+BuildRequires:	perl-libwww
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Get MD5 sums for files of a given path or content of a given url.
+Get MD5 sums for files of a given path or content of a given URL.
 
-# %description -l pl
-# TODO
+%description -l pl
+Ten moduł pozwala uzyskać sumy MD5 dla plików o podanej ścieżce lub
+dla zawartości podanego URL-a.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
