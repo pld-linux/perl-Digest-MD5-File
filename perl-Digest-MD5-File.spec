@@ -6,7 +6,7 @@
 %define	pdir	Digest
 %define	pnam	MD5-File
 Summary:	Digest::MD5::File - getting MD5 sums for files and URLs
-Summary(pl.UTF-8):   Digest::MD5::File - uzyskiwanie sum MD5 dla plikĂłw i URL-i
+Summary(pl.UTF-8):	Digest::MD5::File - uzyskiwanie sum MD5 dla plikĂłw i URL-i
 Name:		perl-Digest-MD5-File
 Version:	0.05
 Release:	1
