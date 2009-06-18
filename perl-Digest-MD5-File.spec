@@ -8,13 +8,13 @@
 Summary:	Digest::MD5::File - getting MD5 sums for files and URLs
 Summary(pl.UTF-8):	Digest::MD5::File - uzyskiwanie sum MD5 dla plików i URL-i
 Name:		perl-Digest-MD5-File
-Version:	0.06
-Release:	2
+Version:	0.07
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Digest/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f5834686c4e48abd0a405f853e51d7a8
+# Source0-md5:	1fd9c101fededbdf140f1cedecd4056e
 URL:		http://search.cpan.org/dist/Digest-MD5-File/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
