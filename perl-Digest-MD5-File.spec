@@ -8,7 +8,7 @@ Summary:	Digest::MD5::File - getting MD5 sums for files and URLs
 Summary(pl.UTF-8):	Digest::MD5::File - uzyskiwanie sum MD5 dla plików i URL-i
 Name:		perl-Digest-MD5-File
 Version:	0.08
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
